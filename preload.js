@@ -1,5 +1,6 @@
 const { contextBridge, ipcRenderer } = require('electron/renderer')
 
+// Muda para Dark, Light ou modo Padrão do Sistema
 contextBridge.exposeInMainWorld('darkMode', {
   toggle: () => ipcRenderer.invoke('dark-mode:toggle'),
   system: () => ipcRenderer.invoke('dark-mode:system')
