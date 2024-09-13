@@ -6,6 +6,9 @@ Aqui irei testar funcionalidades do Electron para posteriormente aplicar em um s
 
 - Inicialmente, irei seguir a documentação do ELECTRON para desenvolver e entender como tudo funciona ali. Vou anotar aqui tudo que for feito.
 
+[x] Página Inicial (main.js)
+[x] Preloader (preload.js)
+
 ## 🚀 Como usar?
 
 - Verificar a versão do NodeJS e do NPM
