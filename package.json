@@ -1,0 +1,34 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "Sistema em ElectronJS para testes",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron .",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linsrep/electron.git"
+  },
+  "keywords": [
+    "electronjs",
+    "nextjs",
+    "tailwindcss",
+    "shadcdn",
+    "offline",
+    "online"
+  ],
+  "author": {
+    "name": "Diogo Oliveira Lins",
+    "email": "contato@goatech.com.br"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linsrep/electron/issues"
+  },
+  "homepage": "https://github.com/linsrep/electron#readme",
+  "devDependencies": {
+    "electron": "^32.1.0"
+  }
+}
