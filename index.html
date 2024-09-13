@@ -11,14 +11,21 @@
       content="default-src 'self'; script-src 'self'"
     />
     <title>SISTEMA ELECTRON - TESTE 2024 - DIOGO O. LINS</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
   </head>
   <body>
-    <h1>Olá, Diogo!</h1>
-    <p>
-      Esta aplicação está usando Node.js <span id="node-version"></span>, Chromium
-      <span id="chrome-version"></span>, e Electron
-      <span id="electron-version"></span>.
-    </p>
+    <div class="tema">
+      <h1>Olá, Diogo!</h1>
+      <p>Tema Ativo: <strong id="theme-source">Padrão</strong></p>
+
+      <button id="toggle-dark-mode">Alterar Tema (Dark/Light)</button>
+      <button id="reset-to-system">Tema Padrão do Sistema</button>
+      <p>
+        Esta aplicação está usando Node.js <span id="node-version"></span>,
+        Chromium <span id="chrome-version"></span>, e Electron
+        <span id="electron-version"></span>.
+      </p>
+    </div>
   </body>
   <script src="./renderer.js"></script>
 </html>

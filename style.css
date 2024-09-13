@@ -1,0 +1,17 @@
+:root {
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tema {
+    background-color: #333 !important;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .tema {
+    background-color: #ddd !important;
+    color: black;
+  }
+}
